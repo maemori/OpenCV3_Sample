@@ -1,4 +1,4 @@
-[TOP](https://github.com/maemori/opencv3_sample)
+[TOP](https://github.com/maemori/OpenCV3_Sample/)
 ----
 
 # [C++] OpenCV3 描画サンプル: フォントとテキスト 
