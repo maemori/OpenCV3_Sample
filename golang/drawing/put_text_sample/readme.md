@@ -5,9 +5,9 @@
 
 ## 0.内容
 
-* cv::putText - テキストの配置
-* cv::rectangle - 長方形の配置
-* cv::line - 直線の配置
+* cvPutText - テキストの配置
+* cvRectangle - 長方形の配置
+* cvLine - 直線の配置
 
 ## 1.[サンプルコード](./main.go)
 

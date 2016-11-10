@@ -2,14 +2,15 @@
  * OpenCV3 描画サンプル： フォントとテキスト
 */
 
-#include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/highgui/highgui.hpp>
 
+using namespace std;
 
 int main( int argc, char** argv )
 {
     // 表示する文字列
-    cv::String text = "Hi Hello World!";
+    string text = "Hi Hello World!";
 
     // 文字の大きさ
     double fontScale = 3;
@@ -51,10 +52,11 @@ int main( int argc, char** argv )
             cv::Scalar::all(250), thickness, 8);
 
     //　ウィンドウの生成
-    cv::namedWindow("TestWindow", cv::WINDOW_AUTOSIZE);
+    string window_name = "TestWindow";
+    cv::namedWindow(window_name, cv::WINDOW_AUTOSIZE);
 
     //　ウィンドウに画像マトリックスを表示
-    cv::imshow("TestWindow", img);
+    cv::imshow(window_name, img);
 
     // ユーザが入力するまで待機
     cv::waitKey(0);
