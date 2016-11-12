@@ -10,6 +10,15 @@
 
 * [Go](./golang/load/load_image_sample)
 
+### Video
+
+動画を読み込み、リサイズ＆モノクロ変換して再生
+
+* [C++](./cpp/load/load_video_sample)
+
+* [Go](./golang/load/load_video_sample)
+
+
 ## Drawing
 
 ### Put text
