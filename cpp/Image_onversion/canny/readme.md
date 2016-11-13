@@ -54,5 +54,3 @@ make
 ``` bash
 ./put_text_sample
 ```
-
-![実行結果イメージ](./etc/Execution_result/sample_01.png)
