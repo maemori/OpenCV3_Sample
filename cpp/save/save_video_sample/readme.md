@@ -25,11 +25,12 @@
 
 入力動画:
 
-<video src="sample_01.mp4" width="540" height="960" controls preload></video>
+[![入力動画](http://img.youtube.com/vi/UDPQthJe7cg/0.jpg)](https://www.youtube.com/watch?v=UDPQthJe7cg)
 
 出力動画:
 
-<video src="./etc/Execution_result/output.mp4" width="540" height="960" controls preload></video>
+[![出力動画](http://img.youtube.com/vi/MpB86yd_qqY/0.jpg)](https://www.youtube.com/watch?v=MpB86yd_qqY)
+
 
 ## 2.ビルド
 
