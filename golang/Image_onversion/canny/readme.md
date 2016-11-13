@@ -30,7 +30,7 @@
 * cvCreateVideoWriter - ビデオライターの取得
 * cvWriteFrame - 動画にフレームを追加
 
-## 1.[サンプルコード](./main.cpp)
+## 1.[サンプルコード](./main.go)
 
 
 ### 1.1. 実行イメージ

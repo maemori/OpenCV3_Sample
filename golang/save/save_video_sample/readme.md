@@ -19,7 +19,7 @@
 * cvResize - リサイズ
 * cvCvtColounsafe(・・・, C.CV_BGR2GRAY)r - グレースケール変換
 
-## 1.[サンプルコード](./main.cpp)
+## 1.[サンプルコード](./main.go)
 
 ### 1.1. 実行イメージ
 

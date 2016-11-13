@@ -11,7 +11,7 @@
 * cvResize - リサイズ
 * cvSaveImage - 画像の保存
 
-## 1.[サンプルコード](./main.cpp)
+## 1.[サンプルコード](./main.go)
 
 ## 2.ビルド
 
