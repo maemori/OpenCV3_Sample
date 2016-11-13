@@ -14,6 +14,7 @@
 * writer << gray - 動画にフレームを追加
 
 保有処理
+
 * cv::VideoCapture - 動画の読み込み
 * capture >> frame; - 再生フレームの取得
 * cv::resize - リサイズ

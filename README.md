@@ -26,11 +26,15 @@
 
 * [C++](./cpp/save/save_image_sample)
 
+* [Go](./golang/save/save_image_sample)
+
 ### 2.2. Video
 
 動画の保存
 
 * [C++](./cpp/save/save_video_sample)
+
+* [Go](./golang/save/save_video_sample)
 
 ## 3. Drawing
 
@@ -49,3 +53,5 @@
 Cannyエッジ検出器
 
  * [C++](./cpp/Image_onversion/canny)
+ 
+ * [Go](./golang/Image_onversion/canny)
