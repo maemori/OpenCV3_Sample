@@ -10,7 +10,7 @@
 保存処理
 
 * cv::VideoWriter writer - ビデオライターの取得
-* writer.open - ビデオライタの初期化を確認
+* writer.open - ビデオライターの初期化を確認
 * writer << gray - 動画にフレームを追加
 
 保有処理
@@ -23,11 +23,11 @@
 
 ### 1.1. 実行イメージ
 
-入力動画:
+入力動画（クリックでYouTubeの動画が開きます）:
 
 [![入力動画](http://img.youtube.com/vi/UDPQthJe7cg/0.jpg)](https://www.youtube.com/watch?v=UDPQthJe7cg)
 
-出力動画:
+出力動画（クリックでYouTubeの動画が開きます）:
 
 [![出力動画](http://img.youtube.com/vi/MpB86yd_qqY/0.jpg)](https://www.youtube.com/watch?v=MpB86yd_qqY)
 

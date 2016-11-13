@@ -1,7 +1,10 @@
 /**
- * OpenCV3．画像変換サンプル： Cannyエッジ検出器サンプル
+ * OpenCV3．画像変換サンプル： Cannyエッジ検出器.
  *
- *
+ * 動画を読み込み、リサイズ＆モノクロ変換を行いエッジ抽出し再生（処理結果を保存）。
+*/
+
+/**
  * 1986年にJ.Cannyに寄って洗練されたエッジ検出器。
  *
  * 個々のエッジの候補値ピクセルから輪郭を作り上げようとします。
@@ -42,6 +45,26 @@ int main( int argc, char** argv )
     // エッジ検出結果の画像
     cv::Mat edges;
 
+    // 出力ファイル名
+    string outputFilename = "output.mp4";
+
+    // ビデオライターの取得
+    cv::VideoWriter writer;
+
+    // ビデオライターを開く
+    writer.open(
+            outputFilename,
+            cv::VideoWriter::fourcc('M','J','P','G'),
+            capture.get(cv::CAP_PROP_FPS),
+            cv::Size(capture.get(cv::CAP_PROP_FRAME_WIDTH) / 2, capture.get(cv::CAP_PROP_FRAME_HEIGHT) / 2),
+            false
+    );
+
+    // ビデオライターの初期化を確認
+    if (!writer.isOpened())
+        return -1;
+
+
     //　ウィンドウの生成
     string window_name = "Test Window";
     cv::namedWindow(window_name, cv::WINDOW_AUTOSIZE);
@@ -73,6 +96,9 @@ int main( int argc, char** argv )
 
         //　ウィンドウに画像を表示
         cv::imshow(window_name, edges);
+
+        //【出力動画にフレームを追加
+        writer << edges;
 
         // 30ms待機、ユーザが何か入力すると終了
         if(cv::waitKey(30) != -1) break;

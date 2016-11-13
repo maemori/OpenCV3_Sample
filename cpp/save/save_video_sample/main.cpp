@@ -44,7 +44,7 @@ int main( int argc, char** argv )
     bool outputIsColor = false;
 
     /**
-     * 【動画の出力】ビデオライタを開く
+     * 【動画の出力】ビデオライターを開く
      *    outputFilename - 出力ファイル名
      *    outputFourcc - コーデック
      *    outputFps - 1秒あたりのフレーム数
@@ -53,7 +53,7 @@ int main( int argc, char** argv )
      */
     writer.open(outputFilename, outputFourcc, outputFps, outputSize, outputIsColor);
 
-    // ビデオライタの初期化を確認
+    // ビデオライターの初期化を確認
     if (!writer.isOpened())
         return -1;
 
