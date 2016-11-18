@@ -86,9 +86,6 @@ int main( int argc, char** argv )
         if(cv::waitKey(30) != -1) break;
     }
 
-    // ウィンドウの破棄（関連するメモリの解放）
-    cv::destroyAllWindows();
-
     // 終了
     return 0;
 }
