@@ -26,7 +26,7 @@
 
 出力動画（クリックでYouTubeの動画が開きます）:
 
-[![出力動画](http://img.youtube.com/vi/MpB86yd_qqY/0.jpg)](https://www.youtube.com/watch?v=MpB86yd_qqY)
+[![出力動画](http://img.youtube.com/vi/g4uVn0YkXC4/0.jpg)](https://www.youtube.com/watch?v=g4uVn0YkXC4)
 
 ## 4.ビルド
 

@@ -55,3 +55,16 @@ Cannyエッジ検出器
  * [C++](./cpp/Image_onversion/canny)
  
  * [Go](./golang/Image_onversion/canny)
+ 
+### 4.2. BilateralFilter
+
+平準化:バイラテラルフィルター
+
+ * [C++](./cpp/Image_onversion/bilateral_filter)
+
+  
+### 4.3. HoughLinesP
+
+Hough線変換(PPHT:Progressive Probabilistic Hough Transform)
+
+ * [C++](./cpp/Image_onversion/hough_line)
