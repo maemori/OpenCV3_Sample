@@ -18,6 +18,12 @@
 
 * [Go](./golang/load/load_video_sample)
 
+### 1.3. Live
+
+カメラデバイスからライブ動画を処理
+
+* [C++](./cpp/load/load_live_sample)
+
 ## 2. Save
 
 ### 2.1. Image
