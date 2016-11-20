@@ -85,6 +85,6 @@ Hough線変換(PPHT:Progressive Probabilistic Hough Transform)
  
 ### 5.2 Cat face detection
 
-動画から猫をを識別します。処理結果はリアルタイムに表示し動画ファイルとしても保存を行います。
+カメラから入力されたライブ動画からネコを識別します。処理結果はリアルタイムに表示し動画ファイルとしても保存を行います。
 
  * [C++](./cpp/object_detection/cat_detection)
