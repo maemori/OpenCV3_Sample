@@ -1,7 +1,7 @@
 [TOP](https://github.com/maemori/OpenCV3_Sample/)
 ----
 
-# [C++] OpenCV3 描画サンプル: Cannyエッジ検出器
+# [C++] OpenCV3 画像変換サンプル: Cannyエッジ検出器
 
 動画を読み込み、リサイズ＆モノクロ変換を行いエッジ抽出を行い処理結果を再生（処理結果を動画ファイルに保存）。
 

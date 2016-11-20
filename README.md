@@ -74,3 +74,17 @@ Cannyエッジ検出器
 Hough線変換(PPHT:Progressive Probabilistic Hough Transform)
 
  * [C++](./cpp/Image_onversion/hough_line)
+ 
+## 5. Object detection
+
+### 5.1 Face detection
+
+カメラから入力されたライブ動画から顔を識別し置換用の画像で置き換えます。処理結果はリアルタイムに表示し動画ファイルとしても保存を行います。
+
+ * [C++](./cpp/object_detection/face_detection)
+ 
+### 5.2 Cat face detection
+
+動画から猫をを識別します。処理結果はリアルタイムに表示し動画ファイルとしても保存を行います。
+
+ * [C++](./cpp/object_detection/cat_detection)

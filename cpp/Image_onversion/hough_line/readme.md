@@ -1,7 +1,7 @@
 [TOP](https://github.com/maemori/OpenCV3_Sample/)
 ----
 
-# [C++] OpenCV3 描画サンプル: Hough線変換
+# [C++] OpenCV3 画像変換サンプル: Hough線変換
 
 プログレッシブな確率的Hough変換(PPHT:Progressive Probabilistic Hough Transform)を用いて動画から直線の抽出を行います。
 
