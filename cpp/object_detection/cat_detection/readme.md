@@ -23,7 +23,7 @@
 
 出力動画（クリックでYouTubeの動画が開きます）:
 
-[![出力動画](http://img.youtube.com/vi/dOA8wiAfHr8/0.jpg)](https://www.youtube.com/watch?v=dOA8wiAfHr8)
+[![出力動画](http://img.youtube.com/vi/SriMaTIdGKY/0.jpg)](https://www.youtube.com/watch?v=SriMaTIdGKY)
 
 ## 4.ビルド
 
